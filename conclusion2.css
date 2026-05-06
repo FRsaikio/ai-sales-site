@@ -1,0 +1,130 @@
+.final-conclusion {
+  position: relative;
+  overflow: hidden;
+  padding: 120px 7%;
+  background:
+    radial-gradient(circle at top right, rgba(105,190,69,0.18), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(95,95,95,0.18), transparent 30%),
+    linear-gradient(135deg, #050505 0%, #151515 55%, #2a2a2a 100%);
+  color: white;
+}
+
+.conclusion-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.conclusion-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.final-conclusion h2 {
+  font-size: clamp(2.8rem, 5vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -2px;
+  margin: 22px 0 30px;
+  max-width: 1100px;
+}
+
+.final-conclusion .intro {
+  max-width: 1050px;
+  color: #eeeeee;
+  line-height: 1.9;
+  font-size: 1.1rem;
+  margin-bottom: 60px;
+}
+
+.conclusion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-bottom: 70px;
+}
+
+.conclusion-grid article {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 28px;
+  padding: 34px;
+  transition: 0.3s ease;
+}
+
+.conclusion-grid article:hover {
+  transform: translateY(-8px);
+  border-color: rgba(105,190,69,0.45);
+}
+
+.conclusion-grid h3 {
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+}
+
+.conclusion-grid p {
+  color: #dddddd;
+  line-height: 1.8;
+}
+
+.conclusion-highlight,
+.conclusion-final {
+  padding: 42px;
+  border-radius: 32px;
+  margin-bottom: 40px;
+}
+
+.conclusion-highlight {
+  background:
+    radial-gradient(circle at top right, rgba(105,190,69,0.18), transparent 35%),
+    rgba(255,255,255,0.06);
+  border: 1px solid rgba(105,190,69,0.25);
+}
+
+.conclusion-final {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.conclusion-highlight h3,
+.conclusion-final h3 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.conclusion-highlight p,
+.conclusion-final p {
+  color: #eeeeee;
+  line-height: 1.9;
+  max-width: 1050px;
+}
+
+.conclusion-actions {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
+
+@media (max-width: 900px) {
+
+  .conclusion-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .final-conclusion {
+    padding: 90px 5%;
+  }
+
+  .conclusion-highlight,
+  .conclusion-final {
+    padding: 30px;
+  }
+}

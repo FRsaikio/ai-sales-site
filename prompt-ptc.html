@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Prompts IA pour commerciaux PTC</title>
+
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="prompt-ptc.css" />
+</head>
+
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">AI <span>Sales</span></a>
+
+  <button class="menu-toggle">☰</button>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="commerce.html">Cas PTC</a></li>
+    <li><a href="copilot-limites.html">Limites Copilot</a></li>
+    <li><a href="optimisation-ptc.html">Optimisation PTC</a></li>
+    <li><a href="prompt-ptc.html">Prompts PTC</a></li>
+    <li><a href="conclusion2.html">conclusion</a></li>
+    
+  </ul>
+</nav>
+
+<header class="prompt-hero">
+  <div class="prompt-hero-content">
+    <span class="badge">Prompt library — Cas PTC</span>
+
+    <h1>Des prompts IA prêts à adapter pour les commerciaux PTC</h1>
+
+    <p>
+      Cette page propose des exemples de prompts adaptés aux besoins commerciaux de PTC :
+      recherche de comptes, préparation de rendez-vous, identification de signaux d’achat,
+      rédaction d’emails, qualification MEDDICC, gestion des objections et suivi client.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#prompts" class="btn btn-primary btn-effect">Voir les prompts</a>
+      <a href="optimisation-ptc.html" class="btn btn-secondary btn-effect">Retour optimisation</a>
+    </div>
+  </div>
+</header>
+
+<main class="content">
+
+<section class="section-title">
+  <span>Objectif</span>
+  <h2>Utiliser l’IA comme assistant commercial, pas comme pilote automatique</h2>
+  <p>
+    Les prompts doivent aider le commercial à gagner du temps, structurer sa réflexion
+    et améliorer la qualité de ses actions. Ils ne doivent jamais remplacer la validation humaine,
+    la connaissance du client ou la stratégie commerciale.
+  </p>
+</section>
+
+<section class="prompt-rules">
+  <article>
+    <h3>1. Donner le contexte</h3>
+    <p>Entreprise ciblée, secteur, produit PTC, persona, objectif, marché et niveau de maturité.</p>
+  </article>
+
+  <article>
+    <h3>2. Demander un format clair</h3>
+    <p>Tableau, bullet points, email court, plan d’appel, synthèse exécutive ou checklist.</p>
+  </article>
+
+  <article>
+    <h3>3. Vérifier avant usage</h3>
+    <p>Les informations sensibles, techniques ou commerciales doivent être relues et validées.</p>
+  </article>
+</section>
+
+<section id="prompts" class="section-title">
+  <span>Prompts par besoin</span>
+  <h2>Quel prompt utiliser selon la tâche commerciale ?</h2>
+  <p>
+    Chaque prompt ci-dessous est pensé pour un usage précis et indique l’IA la plus adaptée.
+  </p>
+</section>
+
+<section class="prompt-grid">
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Recherche compte</span>
+      <strong>IA recommandée : Perplexity / Copilot / ChatGPT</strong>
+    </div>
+
+    <h3>Comprendre rapidement une entreprise industrielle</h3>
+
+    <p class="prompt-use">
+      À utiliser avant un premier appel ou une prospection ciblée.
+    </p>
+
+    <pre><code>Agis comme un analyste commercial B2B spécialisé dans l’industrie.
+
+Je prépare une approche commerciale pour l’entreprise suivante :
+[Nom de l’entreprise]
+[Secteur]
+[Pays / région]
+[Site web si disponible]
+
+Objectif :
+Comprendre si cette entreprise peut avoir des enjeux liés à la conception produit,
+au PLM, à la gestion des exigences, à l’IoT industriel ou à la transformation digitale.
+
+Analyse-moi :
+1. Activité principale de l’entreprise
+2. Marchés servis
+3. Enjeux industriels probables
+4. Signaux de croissance, transformation ou modernisation
+5. Fonctions à cibler en priorité
+6. Hypothèses de problèmes que PTC pourrait aider à résoudre
+
+Réponds en bullet points, de manière concise et exploitable commercialement.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Signaux d’achat</span>
+      <strong>IA recommandée : Perplexity / Sales Navigator / Apollo</strong>
+    </div>
+
+    <h3>Identifier des triggers pour contacter un prospect</h3>
+
+    <p class="prompt-use">
+      À utiliser pour trouver un angle d’approche pertinent.
+    </p>
+
+    <pre><code>Agis comme un SDR senior chez PTC.
+
+Je veux prospecter :
+[Nom de l’entreprise]
+[Secteur]
+[Produit PTC à mettre en avant : Creo / Windchill / Codebeamer / ThingWorx]
+
+Trouve 10 signaux d’achat potentiels liés à :
+- croissance
+- recrutement
+- lancement produit
+- modernisation industrielle
+- transformation digitale
+- conformité
+- qualité
+- complexité produit
+- collaboration ingénierie
+- réduction du time-to-market
+
+Pour chaque signal, donne :
+1. Le signal détecté
+2. Pourquoi il peut créer une opportunité commerciale
+3. Le persona à contacter
+4. Une phrase d’accroche possible pour lancer la conversation.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Persona</span>
+      <strong>IA recommandée : ChatGPT / Copilot</strong>
+    </div>
+
+    <h3>Comprendre un décideur avant de le contacter</h3>
+
+    <p class="prompt-use">
+      À utiliser pour adapter le discours à chaque interlocuteur.
+    </p>
+
+    <pre><code>Agis comme un expert en vente B2B industrielle.
+
+Je cible le persona suivant :
+[Poste du prospect]
+[Entreprise]
+[Secteur]
+[Solution PTC potentiellement pertinente]
+
+Explique-moi :
+1. Ses responsabilités principales
+2. Ses objectifs business probables
+3. Ses problèmes quotidiens
+4. Ses KPI
+5. Ses objections possibles
+6. Ce qui peut l’intéresser dans une solution PTC
+7. Le meilleur angle d’approche pour un premier message
+
+Réponds sous forme de tableau clair.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Email personnalisé</span>
+      <strong>IA recommandée : ChatGPT / Copilot / HubSpot AI</strong>
+    </div>
+
+    <h3>Créer un email de prospection contextualisé</h3>
+
+    <p class="prompt-use">
+      À utiliser après avoir identifié un signal d’achat.
+    </p>
+
+    <pre><code>Agis comme un commercial PTC expérimenté.
+
+Rédige un email de prospection court pour :
+[Nom du prospect]
+[Poste]
+[Entreprise]
+
+Contexte :
+[Signal d’achat ou actualité]
+[Problème probable]
+[Solution PTC concernée]
+[Valeur business attendue]
+
+Contraintes :
+- maximum 120 mots
+- ton professionnel, direct et humain
+- pas de jargon excessif
+- commencer par un élément personnalisé
+- finir par une question simple pour obtenir un rendez-vous
+
+Propose 3 versions :
+1. Ton direct
+2. Ton conseil
+3. Ton très court.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>MEDDICC</span>
+      <strong>IA recommandée : Copilot / ChatGPT / Salesforce Einstein</strong>
+    </div>
+
+    <h3>Qualifier une opportunité commerciale</h3>
+
+    <p class="prompt-use">
+      À utiliser après un rendez-vous de découverte.
+    </p>
+
+    <pre><code>Agis comme un sales manager PTC.
+
+À partir des notes de rendez-vous ci-dessous, structure l’opportunité selon MEDDICC.
+
+Notes :
+[Coller les notes du call]
+
+Analyse :
+1. Metrics : quels impacts mesurables sont mentionnés ou à clarifier ?
+2. Economic Buyer : qui semble être le décideur économique ?
+3. Decision Criteria : quels critères de décision apparaissent ?
+4. Decision Process : quelles étapes manquent ?
+5. Identify Pain : quels problèmes sont clairement exprimés ?
+6. Champion : y a-t-il un sponsor interne ?
+7. Competition : quelles alternatives ou concurrents sont visibles ?
+
+Ajoute ensuite :
+- risques du deal
+- prochaines questions à poser
+- prochaines actions recommandées.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Objections</span>
+      <strong>IA recommandée : ChatGPT / Copilot</strong>
+    </div>
+
+    <h3>Préparer une réponse aux objections</h3>
+
+    <p class="prompt-use">
+      À utiliser avant un call de négociation ou de relance.
+    </p>
+
+    <pre><code>Agis comme un expert en vente de logiciels industriels.
+
+Le prospect a exprimé cette objection :
+[Objection exacte]
+
+Contexte :
+[Entreprise]
+[Persona]
+[Solution PTC]
+[Enjeu client]
+[Étape du cycle de vente]
+
+Propose :
+1. Une réponse courte et rassurante
+2. Une réponse orientée valeur business
+3. Une question de clarification
+4. Une preuve ou élément à apporter
+5. Une erreur à éviter dans la réponse
+
+Le ton doit rester professionnel, crédible et non agressif.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Compte rendu</span>
+      <strong>IA recommandée : Copilot / Gong / Fireflies</strong>
+    </div>
+
+    <h3>Transformer un call en plan d’action</h3>
+
+    <p class="prompt-use">
+      À utiliser après un rendez-vous client.
+    </p>
+
+    <pre><code>Agis comme un assistant commercial PTC.
+
+À partir de ces notes de réunion :
+[Coller notes / transcription]
+
+Produis :
+1. Résumé du rendez-vous en 5 bullet points
+2. Problèmes exprimés par le client
+3. Personnes impliquées et rôle de chacune
+4. Objections ou risques
+5. Prochaines actions côté PTC
+6. Prochaines actions côté client
+7. Email de suivi court et professionnel
+
+Ne rajoute pas d’information non présente dans les notes.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Account plan</span>
+      <strong>IA recommandée : ChatGPT / Copilot</strong>
+    </div>
+
+    <h3>Construire un plan de compte</h3>
+
+    <p class="prompt-use">
+      À utiliser pour les comptes stratégiques.
+    </p>
+
+    <pre><code>Agis comme un account executive senior chez PTC.
+
+Crée un plan de compte pour :
+[Nom du compte]
+[Secteur]
+[Pays]
+[Solutions déjà utilisées si connues]
+[Opportunité actuelle]
+
+Structure le plan en :
+1. Vue d’ensemble du compte
+2. Enjeux business probables
+3. Cartographie des personas à cibler
+4. Hypothèses de douleurs
+5. Solutions PTC potentiellement pertinentes
+6. Opportunités court terme
+7. Opportunités long terme
+8. Risques du compte
+9. Prochaines actions commerciales sur 30 jours
+
+Réponds de manière stratégique et exploitable.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>Proposition</span>
+      <strong>IA recommandée : Copilot / ChatGPT</strong>
+    </div>
+
+    <h3>Préparer une proposition orientée valeur</h3>
+
+    <p class="prompt-use">
+      À utiliser avant une proposition ou présentation client.
+    </p>
+
+    <pre><code>Agis comme un consultant avant-vente PTC.
+
+Je dois préparer une proposition pour :
+[Entreprise]
+[Persona principal]
+[Solution PTC]
+[Problèmes identifiés]
+[Objectifs client]
+
+Aide-moi à structurer :
+1. Résumé exécutif
+2. Problèmes du client
+3. Impacts business
+4. Solution proposée
+5. Valeur attendue
+6. Risques si le client ne change rien
+7. Prochaines étapes
+
+Le ton doit être clair, business et orienté résultat.</code></pre>
+  </article>
+
+  <article class="prompt-card">
+    <div class="prompt-top">
+      <span>QBR / client existant</span>
+      <strong>IA recommandée : Copilot / Salesforce Einstein</strong>
+    </div>
+
+    <h3>Préparer une revue client</h3>
+
+    <p class="prompt-use">
+      À utiliser pour un client existant ou un compte à développer.
+    </p>
+
+    <pre><code>Agis comme un customer account manager PTC.
+
+Je prépare une revue client pour :
+[Nom du client]
+[Solutions PTC utilisées]
+[Historique disponible]
+[Objectif de la réunion]
+
+Prépare :
+1. Synthèse de la relation client
+2. Valeur déjà apportée
+3. Risques ou irritants possibles
+4. Opportunités d’expansion
+5. Questions à poser au client
+6. Points à présenter au sponsor exécutif
+7. Plan d’action après la réunion
+
+Reste factuel et indique les points à vérifier si l’information manque.</code></pre>
+  </article>
+
+</section>
+
+<section class="prompt-banner">
+  <h2>Contraintes importantes</h2>
+  <p>
+    Ces prompts doivent être adaptés à chaque situation. Un commercial ne doit jamais coller
+    d’informations confidentielles, de prix sensibles, de contrats ou de données internes
+    dans un outil non approuvé. L’IA doit aider à préparer, mais le commercial garde toujours
+    la validation finale.
+  </p>
+</section>
+
+<section class="constraint-grid">
+  <article>
+    <h3>Confidentialité</h3>
+    <p>Ne pas partager de données clients sensibles dans des IA non validées par l’entreprise.</p>
+  </article>
+
+  <article>
+    <h3>Vérification</h3>
+    <p>Contrôler les informations avant usage, surtout les données techniques ou financières.</p>
+  </article>
+
+  <article>
+    <h3>Personnalisation</h3>
+    <p>Ne jamais envoyer un message IA sans adaptation humaine.</p>
+  </article>
+
+  <article>
+    <h3>Prompt quality</h3>
+    <p>Un prompt vague produit souvent une réponse vague. Le contexte est essentiel.</p>
+  </article>
+
+  <article>
+    <h3>Source de vérité</h3>
+    <p>Le CRM et les sources officielles doivent rester prioritaires.</p>
+  </article>
+
+  <article>
+    <h3>Usage encadré</h3>
+    <p>Utiliser uniquement les outils autorisés par l’entreprise et les règles internes.</p>
+  </article>
+</section>
+
+<div class="next-page">
+  <a href="optimisation-ptc.html" class="btn btn-secondary btn-effect">← Retour optimisation</a>
+  <a href="conclusion2.html" class="btn btn-primary btn-effect">Aller à la conclusion →</a>
+</div>
+
+</main>
+
+<footer class="footer">
+  <p>Prompt library — PTC, IA & performance commerciale</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
